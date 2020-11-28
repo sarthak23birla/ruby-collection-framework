@@ -8,4 +8,5 @@ class DoublyLinkedListNode
     @next = _next
     @prev = _prev
   end
+
 end
