@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name = 'collection_framework'
-  s.version     = '0.0.1'
-  s.date        = '2020-11-01'
+  s.version     = '0.0.2'
+  s.date        = '2020-12-24'
   s.summary     = 'The collection Framework'
   s.description = 'The Collection Framework for Ruby to implement the complex Data Structures easily'
   s.authors     = ['Sarthak Birla']

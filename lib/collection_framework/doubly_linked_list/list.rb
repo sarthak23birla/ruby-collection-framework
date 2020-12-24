@@ -11,7 +11,7 @@ class DoublyLinkedList
     @length = 0
   end
 
-  # @param [Integer] (index) Value of the current Node.
+  # @param [Integer] (index) Index whose value you want to retrieve.
   # @return [Integer] (Return) the value of the node.
   def get(index)
     return -1 if index >= @length
@@ -55,7 +55,7 @@ class DoublyLinkedList
   end
 
   # @param [Integer] index where value need to be inserted
-  # @param [Object] val which needs to be inserted
+  # @param [Object] value which needs to be inserted
   # @return [nil] nil
   def add_at_index(index, val)
     return if index > length
@@ -81,7 +81,7 @@ class DoublyLinkedList
     end
   end
 
-  # @param [Integer] index where value need to be inserted
+  # @param [Integer] (index) Index where value need to be inserted
   # @return [nil] nil
   def delete_at_index(index)
     return if index >= @length
@@ -108,7 +108,7 @@ class DoublyLinkedList
     @length -= 1
   end
 
-  # @return [String] Return the various values Concatenated with '->'
+  # @return [String] Return the Linked List with all the values Concatenated with '->'
   def to_s
     current_pointer = @head
     str = ''
